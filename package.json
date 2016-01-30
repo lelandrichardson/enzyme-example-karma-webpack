@@ -1,0 +1,46 @@
+{
+  "name": "enzyme-example-karma-webpack",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index.js",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-addons-test-utils": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-airbnb": "^1.0.1",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.0.0-rc1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-browserify": "^5.0.0",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-mocha": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "watchify": "^3.7.0",
+    "webpack": "^1.12.12"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelandrichardson/enzyme-example-karma-webpack.git"
+  },
+  "author": "Leland Richardson <leland.richardson@airbnb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelandrichardson/enzyme-example-karma-webpack/issues"
+  },
+  "homepage": "https://github.com/lelandrichardson/enzyme-example-karma-webpack#readme"
+}
