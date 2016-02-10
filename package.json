@@ -22,7 +22,7 @@
     "karma-babel-preprocessor": "^6.0.1",
     "karma-browserify": "^5.0.0",
     "karma-chrome-launcher": "^0.2.2",
-    "karma-jasmine": "^0.3.6",
+    "karma-jasmine": "^0.3.7",
     "karma-mocha": "^0.2.1",
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.7",
@@ -33,7 +33,7 @@
     "webpack": "^1.12.12"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run",
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
     "test:watch": "./node_modules/karma/bin/karma start"
   },
   "repository": {

@@ -1,7 +1,7 @@
 module.exports = function(config) {
   config.set({
     basePath: '',
-    frameworks: ['mocha'],
+    frameworks: ['jasmine'],
     files: [
       'test/**/*.js'
     ],
@@ -38,9 +38,10 @@ module.exports = function(config) {
 
     plugins: [
       'karma-webpack',
-      'karma-mocha',
+      'karma-jasmine',
       'karma-sourcemap-loader',
-      'karma-chrome-launcher'
+      'karma-chrome-launcher',
+      'karma-phantomjs-launcher'
     ],
 
 
