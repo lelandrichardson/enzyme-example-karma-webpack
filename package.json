@@ -24,14 +24,17 @@
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6",
     "karma-mocha": "^0.2.1",
+    "karma-phantomjs-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
     "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.4",
     "watchify": "^3.7.0",
     "webpack": "^1.12.12"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "test:watch": "./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
