@@ -1,5 +1,5 @@
 var webpack = require('webpack')
-
+var path = require('path');
 
 module.exports = function(config) {
   config.set({
@@ -22,6 +22,7 @@ module.exports = function(config) {
           {
             test: /\.js$/,
             loader: 'babel',
+            exclude: path.resolve(__dirname, 'node_modules'),
             query: {
               presets: ['airbnb']
             }
