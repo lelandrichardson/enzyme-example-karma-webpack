@@ -1,3 +1,6 @@
+var webpack = require('webpack')
+
+
 module.exports = function(config) {
   config.set({
     basePath: '',
@@ -22,11 +25,14 @@ module.exports = function(config) {
             query: {
               presets: ['airbnb']
             }
-          }
+          },
+          {
+            test: /\.json$/,
+            loader: 'json',
+          },
         ]
       },
       externals: {
-        'cheerio': 'window',
         'react/lib/ExecutionEnvironment': true,
         'react/lib/ReactContext': true
       }
