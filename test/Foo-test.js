@@ -14,4 +14,8 @@ describe("A suite", function() {
   it("contains spec with an expectation", function() {
     expect(mount(<Foo />).find('.foo').length).toBe(1);
   });
+
+  it("can run an expectation with render", function() {
+    expect(render(<Foo />).find('.foo').length).toBe(1);
+  });
 });
